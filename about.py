@@ -85,7 +85,7 @@ st.write("#")
 st.subheader("Hard Skills")
 st.divider()
 st.write("""
-- 👨‍💻 Programming : Python (Numpy, Pandas, Scikit-learn) SQL
+- 👨‍💻 Programming : Python (Numpy, Pandas, Scikit-learn)
 - 📊 Data Visualization : Plotly, Matplotlib, Seaborn
 - 🕸️ Web Scrapping : Beautiful Soup
 - 📚 Machine Learning : Scikit-learn
