@@ -7,7 +7,7 @@ import requests
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 profile_pic = current_dir / "assets" / "profile-pic.png"
-# reseme_file = current_dir / "assets" / "Resume.pdf"
+reseme_file = current_dir / "assets" / "Resume.pdf"
 
 page_title = "Digital CV | Youssef Ahmed"
 page_icon = ":wave:"
@@ -41,8 +41,8 @@ st.set_page_config(page_title=page_title, page_icon=page_icon)
 with open (css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
-# with open(reseme_file,"rb") as pdf_file:
-#     PDFbyte = pdf_file.read()
+with open(reseme_file,"rb") as pdf_file:
+    PDFbyte = pdf_file.read()
 
 profile_pic = Image.open(profile_pic)
 
@@ -54,12 +54,12 @@ with col1:
 with col2:
     st.title(name)
     st.write(discription)
-    # st.download_button(
-    #     label=" 📄 Download Resume",
-    #     data=PDFbyte,
-    #     file_name=resume_file,
-    #     mime='application/octet-stream'
-    # )
+    st.download_button(
+        label=" 📄 Download Resume",
+        data=PDFbyte,
+        file_name=r"\assets\Resume.pdf",
+        mime='application/octet-stream'
+    )
     st.write("📫",email)
 
 
