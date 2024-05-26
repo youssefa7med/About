@@ -1,9 +1,8 @@
 import streamlit as st
 from PIL import Image
 from pathlib import Path
-import json
 import requests
-from streamlit_lottie import st_lottie
+
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
@@ -88,6 +87,7 @@ st.divider()
 st.write("""
 - 👨‍💻 Programming : Python (Numpy, Pandas, Scikit-learn) SQL
 - 📊 Data Visualization : Plotly, Matplotlib, Seaborn
+- 🕸️ Web Scrapping : Beautiful Soup
 - 📚 Machine Learning : Scikit-learn
 - 🗄️ Databases : MySQL
 - 🌐 Web Development : Streamlit
