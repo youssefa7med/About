@@ -30,7 +30,7 @@ For additional details and documentation, refer to the repository here: [GitHub 
 ## Usage
 
 - **Explore**: Navigate through various sections to review my skills, projects, and career details.
-- **Feedback**: Comments and inquiries are welcome. Please connect via [contact information](#) or [LinkedIn](#).
+- **Feedback**: Comments and inquiries are welcome. Please connect via [LinkedIn](https://www.linkedin.com/in/youssef-ahmed-/).
 
 ## Contributions
 
