@@ -106,7 +106,7 @@ st.write("""
 #    - 🔷 Develop students skills through coding.
 #    - 🔷 Help students to understand coding.
 #
-$""")
+#""")
 
 st.write("#")
 st.subheader("Projects & Accomplishments")
