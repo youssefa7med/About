@@ -93,20 +93,20 @@ st.write("""
 - 🌐 Web Development : Streamlit
 """)
 
-st.write("#")
-st.subheader("Work History")
-st.write("""---""")
-
+#st.write("#")
+#st.subheader("Work History")
+#st.write("""---""")
+#
 # -------job 1-------
-st.write("🚧", "Python Instractor | Emetdad Courses")
-st.write("01/2024 - Present")
-st.write("""
-    - 🔷 Help students to understand important concepts of programming.
-    - 🔷 Teach and guide students through Python coding.
-    - 🔷 Develop students skills through coding.
-    - 🔷 Help students to understand coding.
-
-""")
+#st.write("🚧", "Python Instractor | Emetdad Courses")
+#st.write("01/2024 - Present")
+#st.write("""
+#    - 🔷 Help students to understand important concepts #of #programming.
+#    - 🔷 Teach and guide students through Python coding.
+#    - 🔷 Develop students skills through coding.
+#    - 🔷 Help students to understand coding.
+#
+$""")
 
 st.write("#")
 st.subheader("Projects & Accomplishments")
