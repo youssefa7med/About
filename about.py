@@ -13,7 +13,7 @@ page_title = "Digital CV | Youssef Ahmed"
 page_icon = ":wave:"
 name = "Youssef Ahmed"
 discription = """
-Data Scientist | Faculty of Computer Science and AI
+Freelancer | Data Scientist | Data Analyst | Machine Learning 
 """
 email = "yaa2003ya@gmailcom"
 social_media = {"LinkedIn": "https://www.linkedin.com/in/youssef-ahmed-9a5643244","GitHub": "https://github.com/youssefa7med","Facebook": "https://www.facebook.com/profile.php?id=100049906008785&mibextid=ZbWKwL","WhatsApp": "https://api.whatsapp.com/send?phone=201000139417&text=%F0%9F%93%9E"}
